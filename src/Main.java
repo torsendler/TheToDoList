@@ -4,5 +4,9 @@ public class Main {
     public static void main(String[] args) {
          ToDoList tdl = new ToDoList("Frühstück für Kinder machen", false, 1);
         System.out.println(tdl);
+
+        ToDoList tdl1 = new ToDoList("Frühstück für Kinder machen", false, 1);
+        System.out.println(tdl1);
+
     }
 }
